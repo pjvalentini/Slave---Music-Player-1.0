@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+body{
+	font-size:13px;
+	line-height:1.5em;
+	color:#fff;
+	background: url(../img/background3.jpg);
+}
+
+.clearfix{
+	clear:both;
+}
+
+.slaveLogo {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  font-size: 80px;
+  color: #ff6b00;
+  position: relative;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding-top: 0px;
+}
+
+.mediaPlayer {
+  font-size: 20px;
+  color: #ff6b00;
+  position: relative;
+  margin-left: 25px;
+  padding-top: 7px;
+}
+
+.audioLogo {
+  height: 24px;
+  width: 25px;
+  float: right;
+  z-index: 10;
+  margin-top: 5px;
+  margin-right: 1023px;
+  position: absolute;
+  margin-left: 153px;
+}
+
+.soundCloudLogo {
+  height: 100px;
+  width: 100px;
+  float: right;
+  margin-top: -100px;
+}
+
+.songInput {
+  height: 30px;
+  width: 175px;
+  background-color: white;
+  border: 2px solid #ff6b00;
+  border-radius: 6px;
+  float: right;
+  margin-right: 200px;
+  margin-top: -68px
+}
+
+.submitBtn {
+    float: right;
+    color: #ff6b00;
+    height: 34px;
+    width: 80px;
+    background-color: white;
+    border: 2px solid #ff6b00;
+    border-radius: 6px;
+    margin-right: 109px;
+    margin-top: -68px;
+}
+
+#container{
+	width:500px;
+	min-height:400px;
+	background:#333;
+	overflow: auto;
+	margin: 60px auto;
+  margin-top: -7px;
+  border: #ff4a00 solid 2px;
+  -moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+  background:url(../img/carbon3.jpg) no-repeat;
+}
+
+#audio-img{
+	position: relative;
+	overflow: hidden;
+	height: 200px;
+	margin-bottom: 15px;
+}
+
+#audio-info{
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 200;
+	text-align:center;
+  font-size: 16px;
+}
+
+#audio-info .artist{
+	font-weight:bold;
+  font-size: 16px;
+}
+
+.cover{
+  margin-left: 145px;
+	width: 42%;
+  overflow: auto;
+}
+
+input#volume {
+	width:96%;
+	margin-left:2%;
+  -webkit-appearance: none;
+    background:#ccc;
+    height:1px;
+	margin-bottom:20px;
+}
+
+input#volume::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background:url(../img/knob.png) no-repeat;
+  height:12px;
+  width:12px;
+}
+
+#audio-buttons{
+  width: 60%;
+  display: block;
+  margin: 6px auto;
+  margin-left: 110px;
+  overflow: auto;
+}
+
+
+button#play{
+  cursor: pointer;
+	width:70px;
+	height:70px;
+  border: 1px solid #ff4a00;
+  border-radius: 9px;
+	background:url(../img/play.png) no-repeat;float:left;
+}
+
+button#pause{
+  cursor: pointer;
+	width: 70px;
+	height: 70px;
+  border: 1px solid #ff4a00;
+  border-radius: 9px;
+	background: url(../img/pause.png) no-repeat;float:left;
+}
+
+button#stop{
+  cursor: pointer;
+	width: 70px;
+	height: 70px;
+  border: 1px solid #ff4a00;
+  border-radius: 9px;
+	background: url(../img/stop.png) no-repeat;float:left;
+}
+
+button#prev{
+  cursor: pointer;
+	width: 70px;
+	height: 70px;
+	background: url(../img/prev.png) no-repeat;
+	float: left;
+	margin-top: 15px;
+}
+
+button#next{
+  cursor: pointer;
+	width: 70px;
+	height: 70px;
+  margin-top: 14px;
+  margin-right: 4px;
+	background: url(../img/next.png) no-repeat;
+	float: right;
+	margin-top: auto 15px;
+}
+
+/*button#shuffle{
+  background: url(../img/Shuffle2.png) no-repeat;
+  width: 60px;
+	height: 60px;
+  z-index: 10;
+}*/
+
+/*button#mute {
+  background: url(../img/Mute.png) no-repeat;
+  width: 60px;
+	height: 60px;
+  z-index: 10;
+}*/
+
+#playlist {
+  list-style-type: none;
+	padding: 10px;
+}
+
+#playlist li {
+  cursor: pointer;
+  margin:5px;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+#tracker{
+	position:relative;
+	width:100%;
+}
+
+#playlist li.active {
+  font-weight: bold;
+	padding:3px;
+	background:#ff4a00;
+  border-radius: 5px;
+}
+
+#progressbar {
+  width: 80%;
+  margin-left: 23%;
+  margin-bottom: 3px;
+  margin-top: 15px;
+  height: 20px;
+  background: url(../img/progress_bg.png) no-repeat;
+  float: left;
+}
+
+#progress {
+  background:url(../img/progress.png) no-repeat;
+  height:10px;
+  display:inline-block;
+}
+
+#duration{
+ position:absolute;
+ font-size: 24px;
+ top: 6px;
+ right: 33px;
+ padding: 3px 15px;
+
+}
+
+#tracker {
+  position: relative;
+  width: 100%;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Audio Player</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/reset.css">
+  </head>
+  <body>
+    <h1 class="slaveLogo">SLAVE<sup>&reg;</sup></h1>
+    <div>
+      <img class="audioLogo" src="img/audioIcon.png">
+    </div>
+    <h4 class="mediaPlayer">Music Player</h4>
+    <div id="container">
+      <div id="audio-img">
+        <img class="cover">
+      </div>
+      <div id="audio-player">
+        <div id="audio-info">
+          <span class="artist"></span> - <span class="title"></span>
+        </div>
+        <input id="volume" type="range" min="0" max="10" value="5">
+        <br>
+        <div id="audio-buttons">
+          <button id="prev"></button>
+          <button id="play"></button>
+          <button id="pause"></button>
+          <button id="stop"></button>
+          <button id="next"></button>
+        </div>
+        <div class="clearfix"></div>
+        <div id="tracker">
+          <div id="progressbar">
+            <span id="progress"></span>
+          </div>
+          <span id="duration"></span>
+        </div>
+        <div class="clearfix"></div>
+        <ul id="playlist">
+          <li song="ActToo.mp3" cover="TheRoots.jpg" artist="The Roots">Act Too.mp3</li>
+          <li song="AintNobody.mp3" cover="ChakaKhan.jpg" artist="Chaka Khan">Ain't Nobody.mp3</li>
+          <li song="Ants.mp3" cover="Edit.jpg" artist="edIT">Ants.mp3</li>
+          <li song="BabsUvulaWho.mp3" cover="GreenDay.jpg" artist="Green Day">Bab's Uvula Who.mp3</li>
+          <li song="Decimate.mp3" cover="Amalgamate.jpg" artist="Amaglamate">Decimate.mp3</li>
+          <li song="ForThoseAboutToRock.mp3" cover="ACDC.jpg" artist="ACDC">For Those Who About to Rock.mp3</li>
+          <li song="FunkinForJamaica.mp3" cover="TomBrowne.jpg" artist="Tom Browne">Funkin For Jamaica.mp3</li>
+          <li song="LongCoolWoman.mp3" cover="TheHollies.jpg" artist="The Hollies">Long Cool Woman.mp3</li>
+          <li song="RockYourBody.mp3" cover="JustinTimberlake.jpg" artist="Justin Timberlake">Rock Your Body.mp3</li>
+          <li song="TheSpark.mp3" cover="TheRoots.jpg" artist="The Roots">The Spark.mp3</li>
+        </ul>
+      </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/javascript.js"></script>
+  </body>
+</html>
