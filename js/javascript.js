@@ -75,7 +75,8 @@ function renderPlaylist() {
 			.attr('song', item.song)
 			.attr('cover', item.artwork_url)
 			.attr('artist', item.genre)
-			.text(item.genre);
+			.text(item.genre)
+			.text(item.song);
 		$('#playlist').append(li);
 	});
 }

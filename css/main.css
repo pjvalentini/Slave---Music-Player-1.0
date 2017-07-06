@@ -17,6 +17,7 @@ body{
 }
 
 .slaveLogo {
+  display: inline-block;
   font-family: "Helvetica Neue", sans-serif;
   font-weight: 100;
   font-size: 80px;
@@ -212,6 +213,14 @@ button#next{
   margin:5px;
   font-size: 15px;
   font-weight: 100;
+}
+
+#playlist li:hover {
+  color: black;
+  font-weight: thin;
+	padding:3px;
+	background:#bebebe;
+  border-radius: 5px;
 }
 
 #tracker{
