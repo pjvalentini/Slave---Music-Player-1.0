@@ -694,7 +694,6 @@ jQuery.extend({
 				core_push.call( ret, arr );
 			}
 		}
-
 		return ret;
 	},
 

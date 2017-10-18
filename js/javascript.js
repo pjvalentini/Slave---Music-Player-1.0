@@ -61,6 +61,7 @@ $('#pause').hide();
 function getPlaylist() {
 	return playlist;
 }
+console.log(playlist);
 
 // Sets the current playlist
 function setPlaylist(p) {
